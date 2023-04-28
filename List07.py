@@ -6,4 +6,7 @@ def main(list01):
     Returns:
         int: return answer
     """
-    return
+    x=fruits.count(0)
+    return x
+fruits=[1,0,0,1,0,1,1,0,0]
+print(main(fruits))
