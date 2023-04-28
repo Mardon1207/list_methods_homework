@@ -9,4 +9,7 @@ def main(numbers1, numbers2):
     Returns:
         list: return answer
     """
-    return
+    return fruits1+fruits2
+fruits1=[6,8,1]
+fruits2=[3,5,7]
+print(main(fruits1,fruits2))
